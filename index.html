@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather widget</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600" rel="stylesheet">
+</head>
+<body>
+    <div class="widget clearfix">
+		<div class="widget__left clearfix">
+		    <div class="gradient">
+		    	<img src="images/weather_pic.png" alt="" class="gradient__weather">
+		    </div>
+		    <div class="weather">
+		    	<span class="weather__text">Sunny</span>
+		    </div>
+		    <div class="date">
+		    	<span class="date__text">Tokyo - Wednesday, July 31</span>
+		    </div>		
+		</div>
+    	<div class="widget__right">
+    		<div class="temp">
+    			<span class="temp__text">
+    				28°C
+    			</span>
+    		</div>
+    		<div class="graph">
+    			<img src="images/graph.png" alt="" class="graph__pic">
+    		</div>
+    		<div class="weather_by_days">
+	    		<ul class="weather_list">
+	    			<li><img src="images/sunny.png" alt=""></li>
+	    			<li><span class="weather_list__day">Thu</span></li>
+	    			<li><span class="weather_list__temp weather_list__temp_day">28°C</span></li>
+	    			<li><span class="weather_list__temp weather_list__temp_night">18°C</span></li>
+	    		</ul>
+	    		<ul class="weather_list weather_list_padding">
+	    			<li><img src="images/cloudy.png" alt=""></li>
+	    			<li><span class="weather_list__day">Fri</span ></li>
+	    			<li><span class="weather_list__temp weather_list__temp_day">22°C</span></li>
+	    			<li><span class="weather_list__temp weather_list__temp_night">20°C</span></li>
+	    		</ul>
+	      		<ul class="weather_list weather_list_padding">
+	    			<li><img src="images/cloudy.png" alt=""></li>
+	    			<li><span class="weather_list__day">Sat</span></li>
+	    			<li><span class="weather_list__temp weather_list__temp_day">30°C</span></li>
+	    			<li><span class="weather_list__temp weather_list__temp_night">27°C</span></li>
+	    		</ul>
+	    	</div>
+    	</div>
+    </div>
+</body>
+</html>
